@@ -74,8 +74,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         //--------------------------- End of Navigation Drawer Implementations ----------------------------------------------------
 
 // -------------------------------------------- CAMERA IMPLEMENTATIONS -----------------------------------
-/*
-        captureBtn = findViewById(R.id.captureBtn);
+
+        captureBtn = findViewById(R.id.captureButton);
         imgV = findViewById(R.id.image);
 
         // for the camera
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 dispatchPictureTakerAction();
             }
         });
-        */
+
     }
 
 // ----------------------- END of CAMERA IMPLEMENTATIONS ---------------------------------------------------------------

@@ -38,7 +38,6 @@
         android:layout_gravity="start"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/drawer_menu" />
-    <!--
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -47,7 +46,7 @@
         >
 
         <Button
-            android:id="@+id/captureBtn"
+            android:id="@+id/captureButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="500dp"
@@ -59,6 +58,6 @@
             android:layout_height="226dp" />
     </LinearLayout>
 
-    -->
+
 
 </android.support.v4.widget.DrawerLayout>
