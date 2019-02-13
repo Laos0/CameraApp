@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 // -------------------------------------------- CAMERA IMPLEMENTATIONS -----------------------------------
 
+        /*
         captureBtn = findViewById(R.id.captureButton);
         imgV = findViewById(R.id.image);
 
@@ -89,6 +90,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         });
 
+        */
     }
 
 // ----------------------- END of CAMERA IMPLEMENTATIONS ---------------------------------------------------------------
