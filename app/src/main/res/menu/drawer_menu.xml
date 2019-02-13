@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <!-- xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view": This one restyle where the
+    items will be located -->
+
+    <!-- single allows the users to select only 1 item on the navigation -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_add"
+            android:title="Add Friend" />
+
+    </group>
+
+</menu>
