@@ -29,7 +29,7 @@ public class AddFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 // Testing code line, to see if my button was working in fragment
-                // dummyT.setText(userAcc.getText());
+                dummyT.setText(userAcc.getText());
 
                 // In this setOnClickListener, it will search for the friend's name in the database
                 // If the friend exist, there will be a friend request to that friend
